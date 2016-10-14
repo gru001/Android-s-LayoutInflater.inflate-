@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LayoutInflater</string>
+    <string name="action_ok">OK</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_alert_dialog">Custom View for Alert Dialog</string>
+    <string name="action_attach_to_root_true">Attach to root true</string>
+    <string name="action_attach_to_root_false">Attach To Root false</string>
+</resources>
