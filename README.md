@@ -1,2 +1,2 @@
-# Android-s-LayoutInflater.inflate-
+# Android's LayoutInflater.inflate
 Understanding Android's LayoutInflater.inflate()
