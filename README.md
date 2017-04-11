@@ -6,7 +6,7 @@ The general gist is this: **If attachToRoot is set to true, then the layout file
 Then the method returns this combined View, with the ViewGroup as the root. **When attachToRoot is false, the layout file from the first parameter is inflated and returned as a View.** The root of the returned View would simply be the root specified in the layout file. In either case, the ViewGroup’s LayoutParams are needed to correctly size and position the View created from the layout file.
 Passing in true for attachToRoot results in a layout file’s inflated View being added to the ViewGroup right on the spot. Passing in false for attachToRoot means that the View created from the layout file will get added to the ViewGroup in some other way.
 
-#### attachToRoot Set to False
+#### attachToRoot Set to True
 Imagine we specified a button in an XML layout file with its layout width and layout height set to match_parent.
 ```XML
 <Button xmlns:android="http://schemas.android.com/apk/res/android"
